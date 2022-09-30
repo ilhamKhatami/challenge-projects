@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sign-up form</title>
+    <link rel="stylesheet" href="./assets/font/inter.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script src="https://kit.fontawesome.com/e065e8e369.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title">
+                <h1>Subcribe untuk dapat info terbaru</h1>
+            </div>
+            <form id="form">
+                <div class="" id="displayForm">
+                    <label for="email">EMAIL ADDRESS</label>
+                    <div class="form-input">
+                        <input type="text" name="email" id="email">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </form>
+            <div class="error hidden" id="displayError">
+                <div class="icon">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <div class="text">
+                    <h3>Tolong gunakan email yang valid</h3>
+                    <p>Seperti : username@mail.com</p>
+                </div>
+            </div>
+            <div class="success hidden" id="displaySuccess">
+                <div class="icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="text">
+                    <h3>Hore! Terima kasih</h3>
+                    <p>Kami telah mengirim link konfirmasi ke kotak pesan anda</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/app.js"></script>
+</body>
+</html>
